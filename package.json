@@ -1,0 +1,30 @@
+{
+  "name": "ps-metrics",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Privacy Sandbox metrics SVGs from chromestatus.com.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "clipboardy": "latest",
+    "eslint": "latest",
+    "eslint-config-google": "latest",
+    "express": "latest",
+    "puppeteer": "latest"
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/ps-metrics"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "privacy sandbox",
+    "puppeteer",
+    "svg"
+  ]
+}

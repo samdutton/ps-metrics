@@ -1,0 +1,155 @@
+/* Copyright 2023 Google LLC.
+SPDX-License-Identifier: Apache-2.0 */
+
+:root {
+  --small-mobile-font-size: 20px;
+  --large-mobile-font-size: 22px;
+  --desktop-font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.warning {
+  font-weight: bold;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 30px 20px 0 20px;
+}
+
+div#fetch-data {
+  background-color: #ffeeee;
+/*   border: 1px solid yellow; */
+  font-family: monospace;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 40px 0 40px 0;
+  height: 150px;
+  overflow-y: scroll;
+  resize: vertical;
+  padding: 0 20px 0 20px;
+}
+
+div#log {
+  background-color: #ffffee;
+/*   border: 1px solid yellow; */
+  font-family: monospace;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 40px 0 40px 0;
+  height: 150px;
+  overflow-y: scroll;
+  resize: vertical;
+  padding: 0 20px 0 20px;
+}
+
+div#log div {
+  border-bottom: 1px solid #eeeeee;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+div#log div:last-of-type {
+  border-bottom: none;
+  padding: 0;
+}
+
+footer {
+  line-height: 2em;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  border-bottom: 1px solid #cccccc;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 60px 0;
+  padding: 0 0 10px 0;
+  width: 565px;
+}
+
+h2 {
+  color: #444444;
+  font-weight: 300;
+  left: 0;
+  position: relative;
+  top: 61px;
+  z-index: 100;
+}
+li {
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.5em;
+  margin: 0 0 20px 0;
+}
+
+main {
+  margin: 0 auto;
+  width: 565px;
+}
+
+ol {
+  margin: 25px 0 0 0;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 1.5em;
+}
+
+p#find-out-more {
+  border-top: 1px solid #cccccc;
+  margin: 60px 0 0 0;
+  padding: 60px 0 0 0;
+}
+
+p#troubleshooting {
+  border-top: 1px solid #cccccc;
+  margin: 60px 0 20px 0;
+  padding: 60px 0 20px 0;
+}
+
+pre {
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  line-height: 1.5em;
+  overflow: scroll;
+  padding: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 30px 0 0 0;
+}
+
+svg {
+  position: relative;
+  left: -144px;
+}
+
+@media (min-width: 400px) {
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+}
+
+@media (min-width: 500px) {
+
+  h1 {
+    font-size: 36px;
+    font-weight: 100;
+  }
+
+}
